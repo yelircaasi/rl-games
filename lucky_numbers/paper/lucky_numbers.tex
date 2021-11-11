@@ -1,0 +1,35 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+
+\title{The Optimal Strategy for the Game Lucky Numbers}
+\author{Isaac Riley}
+\date{\today}
+
+\begin{document}
+\maketitle
+\section{Game Rules}
+In the game \textit{Lucky Numbers}, wo to four players compete for 
+\section{Formal Representation}
+For each player, we calculate the range of permissible numbers for each empty square. 
+For example %%% EXAMPLE HERE %%%
+Each empty square $s^{(k)}_{ij}$ is assigned a number $r^{k}_{ij}$ representing the number of distinct cards that are allowed at in that position.
+These numbers form the set $R^{(k)}$.
+Moreover, define $b^{(k)}$ as the number of blank squares remaining on the board. 
+
+For each turn, we can define a full vector $\textbf{v}^{(k)}$ of indicators, as follows:\\
+\begin{tabular}{cl}
+Indicator & Description \\ \hline
+$v_1$ & change in number of empty spots (0 or 1) \\
+$v_2$ & change in minimum $r^{(k)}_{ij}$ \\
+$v_3$ & change in maximum $r^{(k)}_{ij}$ \\
+$v_4$ & change in mean $r^{(k)}_{ij}$ \\
+$v_5$ & change in median $r^{(k)}_{ij}$ \\
+$v_6$ &  \\
+$v_7$ & 
+\end{tabular}
+\section{Results}
+
+\section{Discussion}
+\end{document}

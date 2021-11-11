@@ -1,0 +1,7 @@
+Potential strategies:
+
+Heuristic 1: Play lowest card possible without breaking up multiples.
+Heuristic 2: Play lowest card possible without breaking up multiples and without decreasing the average card value.
+Heuristic 3: Play lowest card possible without breaking up multiples, meeting one of the following conditions:
+    1) It will not lower the average card value.
+    2) It is expected to win the hand.
